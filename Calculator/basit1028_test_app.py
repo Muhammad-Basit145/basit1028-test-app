@@ -16,7 +16,7 @@ b = st.number_input("Please enter another number")
 c = m + b
 d = m - b
 e = m * b
-f = m / b
+
 # m = st.text_input("Please enter the number between 0 and 9")
 # b = st.text_input("Please enter another number between 0 and 9")
 
@@ -26,8 +26,6 @@ st.text("The result after subtraction is")
 st.write(d)
 st.text("The result after multiplication is")
 st.write(e)
-st.text("The result after division is")
-st.write(f)
 
 
 st.header("Advanced Calculator")
